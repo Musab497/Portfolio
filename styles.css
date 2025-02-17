@@ -1,0 +1,166 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0d0d0d;
+    color: white;
+}
+
+/* Header */
+header {
+    background: #111;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links .active {
+    color: #3cff00;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 100px;
+    background: linear-gradient(to right, #0d0d0d, #181818);
+}
+
+/* Hero Text */
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.glow {
+    color: white;
+    text-shadow: 0 0 10px #3cff00, 0 0 20px #3cff00;
+}
+
+.hero-content h3 {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.highlight {
+    color: #3cff00;
+    font-weight: bold;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    background: #3cff00;
+    color: #0d0d0d;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    background: white;
+}
+
+/* Profile Image */
+.profile-container {
+    position: relative;
+    width: 300px;
+}
+
+.profile-img {
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0 0 15px rgba(60, 255, 0, 0.5);
+    animation: zoomOut 2s infinite alternate;
+}
+
+/* Projects */
+#projects {
+    padding: 50px 10%;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-card {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(60, 255, 0, 0.5);
+}
+
+/* Contact */
+#contact {
+    padding: 50px;
+    text-align: center;
+}
+
+.contact-icons a {
+    display: inline-block;
+    margin: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.contact-icons a:hover {
+    color: #3cff00;
+}
